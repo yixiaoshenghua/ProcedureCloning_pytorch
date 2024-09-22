@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CUDA_VISIBLE_DEVICES='0' python train_eval.py --env_name maze:16-tunnel --load_dir ./tests/testdata --train_seeds 5 --test_seeds 1 --num_trajectory 4 --algo_name pc --num_steps 100_000 --eval_interval 1_000 --num_eval_episodes 3 --max_eval_episode_length 50 --save_dir ./logdir
+CUDA_VISIBLE_DEVICES='0' python train_eval.py --env_name maze:16-tunnel --load_dir ./tests/testdata --train_seeds 5 --test_seeds 1 --num_trajectory 4 --algo_name bc --num_steps 100_000 --eval_interval 1_000 --num_eval_episodes 3 --max_eval_episode_length 50 --save_dir ./logdir
+CUDA_VISIBLE_DEVICES='1' python train_eval.py --env_name maze:16-tunnel --load_dir ./tests/testdata --train_seeds 5 --test_seeds 1 --num_trajectory 4 --algo_name aux_bc --num_steps 100_000 --eval_interval 1_000 --num_eval_episodes 3 --max_eval_episode_length 50 --save_dir ./logdir

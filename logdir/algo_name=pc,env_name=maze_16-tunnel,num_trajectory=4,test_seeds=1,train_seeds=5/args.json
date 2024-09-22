@@ -1,0 +1,20 @@
+{
+    "algo_name": "pc",
+    "alpha": 1.0,
+    "batch_size": 32,
+    "device": "cuda:0",
+    "env_name": "maze:16-tunnel",
+    "eval_interval": 1000,
+    "learning_rate": 0.0003,
+    "load_dir": "./tests/testdata",
+    "max_eval_episode_length": 50,
+    "max_trajectory_length": 100,
+    "num_eval_episodes": 3,
+    "num_steps": 100000,
+    "num_trajectory": 4,
+    "save_dir": "./logdir",
+    "seed": 1,
+    "tabular_obs": false,
+    "test_seeds": 1,
+    "train_seeds": 5
+}
