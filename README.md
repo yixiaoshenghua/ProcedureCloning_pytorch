@@ -29,3 +29,26 @@ To test procecure cloning on addition datasets (e.g., maze of different sizes), 
 ![](assets/train.png)
 
 ![](assets/eval.png)
+
+## Citation
+
+If you find this repository useful, please cite us and the original paper as:
+
+```
+@misc{pc_torch24wansh,
+  author       = {Shenghua Wan},  
+  title        = {ProcedureCloning_pytorch},  
+  year         = {2024},  % 年份
+  howpublished = {\url{https://github.com/yixiaoshenghua/ProcedureCloning_pytorch}}, 
+  note         = {Accessed: YYYY-MM-DD}  % accessed date
+}
+
+@article{yang2022chain,
+  title={Chain of thought imitation with procedure cloning},
+  author={Yang, Mengjiao Sherry and Schuurmans, Dale and Abbeel, Pieter and Nachum, Ofir},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={36366--36381},
+  year={2022}
+}
+```
